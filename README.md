@@ -3,17 +3,17 @@ A CNN which classifies Blood Cells into 4 types - Eosinophils, Basophils, Lympho
 
 Blood Cell Subtypes Classification
 
-Dataset- Blood Cell Images
+# Dataset- Blood Cell Images
 
 This dataset contains 12,500 augmented images of blood cells with accompanying cell type labels . There are approximately 3,000 images for each of 4 different cell types grouped into 4 different folders (according to cell type). 
 The cell types are Eosinophil, Lymphocyte, Monocyte, and Neutrophil. This dataset is accompanied by an additional dataset containing the original 410 images as well as two additional subtype labels and also bounding boxes for each cell in each of these 410 images.
  The folder 'dataset2-master' contains 2,500 augmented images as well as 4 additional subtype labels.
 
-Blood Cell Classes
+# Blood Cell Classes
 ![classes](https://user-images.githubusercontent.com/73905298/110814496-80fec500-82af-11eb-8b07-c62aaa33847b.jpg)
 
 
-Model Summary 
+# Model Summary 
 Layer (type)                 Output Shape              Param #   
 =================================================================
 conv2d_48 (Conv2D)           (None, 198, 198, 16)      448       
@@ -79,7 +79,7 @@ Increased the number of convolution layers from 2 to 6 which caused a  significa
 Decreased the number of neurons in the convolution layers and connecting layers which led to a huge increase in accuracy %
 The model started overfitting so we added Dropouts to the convolution layers and decreased the Dropout values from 0.7 and 0.5 to values of 0.4 and 0.3 in the connecting layer. 
 
-Model Evaluation
+# Model Evaluation
 
 
 Accuracy	 
