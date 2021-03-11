@@ -71,10 +71,13 @@ The above Convolutional Neural Network classifies the 4 classes of blood cells- 
 This model has 6 convolution layers, 2 dense layers, 7 dropouts and approximately 220K parameters.
 It gives 80% and 79% accuracy for 20 epochs.
 
-Accuracy Incremention
+## Accuracy Incremention
+
 Following methods were using in the above model to increase accuracy:
 Increased the number of convolution layers from 2 to 6 which caused a  significant increase in accuracy.
+
 Decreased the number of neurons in the convolution layers and connecting layers which led to a huge increase in accuracy %
+
 The model started overfitting so we added Dropouts to the convolution layers and decreased the Dropout values from 0.7 and 0.5 to values of 0.4 and 0.3 in the connecting layer. 
 
 ## Model Evaluation
