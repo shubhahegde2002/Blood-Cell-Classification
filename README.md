@@ -10,10 +10,10 @@ The cell types are Eosinophil, Lymphocyte, Monocyte, and Neutrophil. This datase
 ![classes](https://user-images.githubusercontent.com/73905298/110814496-80fec500-82af-11eb-8b07-c62aaa33847b.jpg)
 
 
-#Model Summary 
+##Model Summary 
 
 Layer (type)                 Output Shape              Param #   
-=================================================================
+
 conv2d_48 (Conv2D)           (None, 198, 198, 16)      448       
 _________________________________________________________________
 max_pooling2d_48 (MaxPooling (None, 99, 99, 16)        0         
