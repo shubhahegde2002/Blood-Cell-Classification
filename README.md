@@ -10,7 +10,7 @@ The cell types are Eosinophil, Lymphocyte, Monocyte, and Neutrophil. This datase
 ![classes](https://user-images.githubusercontent.com/73905298/110814496-80fec500-82af-11eb-8b07-c62aaa33847b.jpg)
 
 
-## Model Summary 
+#Model Summary 
 
 Layer (type)                 Output Shape              Param #   
 =================================================================
