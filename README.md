@@ -11,7 +11,8 @@ The cell types are Eosinophil, Lymphocyte, Monocyte, and Neutrophil. This datase
 
 
 ## Model Summary 
-=================================================================
+
+----------------------------------------------------------------
 Layer (type)                 Output Shape              Param #   
 =================================================================
 conv2d_48 (Conv2D)           (None, 198, 198, 16)      448       
