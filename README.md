@@ -1,4 +1,4 @@
-##Blood Cell Subtypes Classification
+#Blood Cells Classification
 
 ## Dataset- Blood Cell Images
 
